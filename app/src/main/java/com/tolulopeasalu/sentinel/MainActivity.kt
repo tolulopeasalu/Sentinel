@@ -21,9 +21,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             SentinelTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Sentinel",
-                        modifier = Modifier.padding(innerPadding)
+                    Text(
+                        text = "Sentinel",
+                        style = MaterialTheme.typography.headlineMedium,
                     )
                 }
             }
@@ -31,11 +31,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "$name!",
-        style = MaterialTheme.typography.headlineMedium,
-        modifier = modifier
-    )
-}
+

@@ -9,7 +9,7 @@ val SentinelAmber = Color(0xFFFFB31A)
 val SentinelNavy = Color(0xFF061A46)
 
 // Light theme
-val LightPrimary = SentinelBlue
+val LightPrimary = Color(0xFF0057D9) // Accessible UI primary
 val LightOnPrimary = Color.White
 val LightPrimaryContainer = Color(0xFFD9E7FF)
 val LightOnPrimaryContainer = Color(0xFF001A41)
